@@ -1,0 +1,264 @@
+/* Index Page Specific Styles */
+.main-header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 1.5rem;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.main-header p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+}
+
+.main-nav {
+    background-color: #2563eb;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main-nav li {
+    flex: 1;
+    text-align: center;
+}
+
+.main-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    transition: background-color 0.3s;
+}
+
+.main-nav a:hover {
+    background-color: #1d4ed8;
+}
+
+.main-nav a.active {
+    background-color: #1e40af;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Features Section */
+.features-section {
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+
+.features-section h2 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: #2563eb;
+    margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+    color: #1e3a8a;
+    margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    background-color: #f9fafb;
+    border-radius: 8px;
+}
+
+.about-content {
+    flex: 1;
+    padding: 0 1rem;
+}
+
+.about-content h2 {
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+}
+
+.about-content p {
+    color: #4b5563;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+
+.testimonial-section h2 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.testimonial-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: relative;
+}
+
+.testimonial-card::before {
+    content: '"';
+    font-size: 5rem;
+    color: #e5e7eb;
+    position: absolute;
+    top: -1rem;
+    left: 0.5rem;
+    line-height: 1;
+    z-index: 0;
+}
+
+.testimonial-text {
+    position: relative;
+    z-index: 1;
+    font-style: italic;
+    color: #4b5563;
+    margin-bottom: 1rem;
+}
+
+.testimonial-author {
+    text-align: right;
+}
+
+.author-name {
+    font-weight: bold;
+    color: #1e3a8a;
+}
+
+.author-role {
+    font-size: 0.8rem;
+    color: #6b7280;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-section, .about-section {
+        flex-direction: column;
+    }
+    
+    .hero-content, .about-content {
+        order: 1;
+        text-align: center;
+    }
+    
+    .hero-buttons {
+        justify-content: center;
+    }
+    
+    .main-nav ul {
+        flex-direction: column;
+    }
+}
