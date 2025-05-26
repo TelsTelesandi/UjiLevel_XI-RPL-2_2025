@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2558F3-02D0-47BB-B935-1DEA770C292E}|UJILEVELATAYA\\UJILEVELATAYA.vbproj|C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\ujilevelataya\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3B2558F3-02D0-47BB-B935-1DEA770C292E}|UJILEVELATAYA\\UJILEVELATAYA.vbproj|solutionrelative:ujilevelataya\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2558F3-02D0-47BB-B935-1DEA770C292E}|UJILEVELATAYA\\UJILEVELATAYA.vbproj|C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\ujilevelataya\\formuser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3B2558F3-02D0-47BB-B935-1DEA770C292E}|UJILEVELATAYA\\UJILEVELATAYA.vbproj|solutionrelative:ujilevelataya\\formuser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2558F3-02D0-47BB-B935-1DEA770C292E}|UJILEVELATAYA\\UJILEVELATAYA.vbproj|c:\\users\\ataya\\source\\repos\\ujilevelataya\\ujilevelataya\\cruduser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3B2558F3-02D0-47BB-B935-1DEA770C292E}|UJILEVELATAYA\\UJILEVELATAYA.vbproj|solutionrelative:ujilevelataya\\cruduser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2558F3-02D0-47BB-B935-1DEA770C292E}|UJILEVELATAYA\\UJILEVELATAYA.vbproj|c:\\users\\ataya\\source\\repos\\ujilevelataya\\ujilevelataya\\formadmin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3B2558F3-02D0-47BB-B935-1DEA770C292E}|UJILEVELATAYA\\UJILEVELATAYA.vbproj|solutionrelative:ujilevelataya\\formadmin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2558F3-02D0-47BB-B935-1DEA770C292E}|UJILEVELATAYA\\UJILEVELATAYA.vbproj|C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\ujilevelataya\\formbuatakun.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3B2558F3-02D0-47BB-B935-1DEA770C292E}|UJILEVELATAYA\\UJILEVELATAYA.vbproj|solutionrelative:ujilevelataya\\formbuatakun.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormAdmin.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\UJILEVELATAYA\\FormAdmin.vb",
+              "RelativeDocumentMoniker": "UJILEVELATAYA\\FormAdmin.vb",
+              "ToolTip": "C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\UJILEVELATAYA\\FormAdmin.vb [Design]",
+              "RelativeToolTip": "UJILEVELATAYA\\FormAdmin.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-26T01:28:30.214Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CRUDUser.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\UJILEVELATAYA\\CRUDUser.vb",
+              "RelativeDocumentMoniker": "UJILEVELATAYA\\CRUDUser.vb",
+              "ToolTip": "C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\UJILEVELATAYA\\CRUDUser.vb [Design]",
+              "RelativeToolTip": "UJILEVELATAYA\\CRUDUser.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-26T04:15:38.246Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormLogin.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\UJILEVELATAYA\\FormLogin.vb",
+              "RelativeDocumentMoniker": "UJILEVELATAYA\\FormLogin.vb",
+              "ToolTip": "C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\UJILEVELATAYA\\FormLogin.vb [Design]",
+              "RelativeToolTip": "UJILEVELATAYA\\FormLogin.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-23T03:32:40.731Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormUser.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\UJILEVELATAYA\\FormUser.vb",
+              "RelativeDocumentMoniker": "UJILEVELATAYA\\FormUser.vb",
+              "ToolTip": "C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\UJILEVELATAYA\\FormUser.vb [Design]",
+              "RelativeToolTip": "UJILEVELATAYA\\FormUser.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-23T08:14:11.706Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormBuatAkun.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\UJILEVELATAYA\\FormBuatAkun.vb",
+              "RelativeDocumentMoniker": "UJILEVELATAYA\\FormBuatAkun.vb",
+              "ToolTip": "C:\\Users\\ataya\\source\\repos\\UJILEVELATAYA\\UJILEVELATAYA\\FormBuatAkun.vb [Design]",
+              "RelativeToolTip": "UJILEVELATAYA\\FormBuatAkun.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-23T01:59:57.055Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
