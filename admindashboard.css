@@ -1,0 +1,224 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body dengan gradasi */
+body {
+  background: linear-gradient(135deg, #a8f0c6, #b0e0ff);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px 20px;
+  color: #333;
+}
+
+/* Header */
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #045d56;
+}
+
+/* Main container */
+main {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Judul di main */
+main h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #065f7c;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-top: 20px;
+}
+
+thead {
+  background: linear-gradient(135deg, #55e6a5, #66d2ff);
+  color: white;
+}
+
+th, td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+tbody tr:hover {
+  background-color: #f5f5f5;
+  transition: background 0.3s;
+}
+
+td a {
+  color: #0e7ebc;
+  text-decoration: underline;
+}
+
+td a:hover {
+  color: #055b8a;
+}
+
+/* Logout link */
+a.logout {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #55e6a5, #66d2ff);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+a.logout:hover {
+  background: linear-gradient(135deg, #4fd694, #58c3f5);
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background: white;
+    padding: 10px;
+  }
+
+  td {
+    padding: 10px;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+}
+
+.btn-manage-user {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #55e6a5, #66d2ff);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-manage-user:hover {
+  background: linear-gradient(135deg, #4fd694, #58c3f5);
+}
+
+/* Badge status */
+.badge {
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: capitalize;
+  display: inline-block;
+  color: white;
+}
+
+.badge.menunggu  { background-color: #a7a7a7; }
+.badge.diajukan  { background-color: #2980b9; }
+.badge.disetujui { background-color: #27ae60; }
+.badge.ditolak   { background-color: #e74c3c; }
+.badge.ditutup   { background-color: #7f8c8d; }
+
+/* Tombol aksi */
+table button {
+  margin: 4px 4px 0 0;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.btn-approve {
+  background: #3498db;
+}
+
+.btn-reject {
+  background: #e74c3c;
+}
+
+.btn-delete {
+  background: #bdc3c7;
+  color: #49261a;
+}
+
+.btn-approve:hover {
+  background: #2980b9;
+}
+
+.btn-reject:hover {
+  background: #c0392b;
+}
+
+.btn-delete:hover {
+  background: #95a5a6;
+}
+
+/* Tombol bawah */
+.button-group {
+  margin-top: 25px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(135deg, #55e6a5, #66d2ff);
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #4fd694, #58c3f5);
+}

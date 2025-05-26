@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #a8f0c6, #b0e0ff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #333;
+}
+
+/* Login Container */
+.login-container {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
+}
+
+.login-container h2 {
+  font-size: 1.8rem;
+  color: #045d56;
+  font-weight: bold;
+}
+
+/* Form */
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.login-container input {
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.login-container input:focus {
+  border-color: #55c59d;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(85, 197, 157, 0.2);
+}
+
+/* Tombol Login */
+.login-container button {
+  padding: 12px;
+  background: linear-gradient(135deg, #55e6a5, #66d2ff);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.login-container button:hover {
+  background: linear-gradient(135deg, #4fd694, #58c3f5);
+}
+
+/* Error Message */
+#loginError {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: -10px;
+}

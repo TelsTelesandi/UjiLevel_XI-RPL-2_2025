@@ -1,0 +1,194 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body dengan gradien hijau terang ke biru terang */
+body {
+  background: linear-gradient(135deg, #a8f0c6, #b0e0ff);
+  min-height: 100vh;
+  padding: 60px 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+
+/* Header */
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #045d56;
+}
+
+/* Container utama */
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  gap: 30px;
+}
+
+/* Sidebar */
+.sidebar {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+  position: sticky;
+  top: 40px;
+}
+
+.sidebar h2 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #045d56;
+}
+
+.sidebar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 10px 15px;
+  background: linear-gradient(135deg, #55e6a5, #66d2ff);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  background: linear-gradient(135deg, #4fd694, #58c3f5);
+}
+
+/* Main content */
+main {
+  flex: 1;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+/* Judul section */
+main h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #065f7c;
+}
+
+/* Form Input */
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Focus style */
+form input:focus,
+form textarea:focus {
+  border-color: #55c59d;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(85, 197, 157, 0.2);
+}
+
+/* Button submit */
+form button {
+  background: linear-gradient(135deg, #55e6a5, #66d2ff);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: linear-gradient(135deg, #4fd694, #58c3f5);
+}
+
+/* Tabel daftar event */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+thead {
+  background: linear-gradient(135deg, #55e6a5, #66d2ff);
+  color: white;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  font-size: 1rem;
+}
+
+td:last-child {
+  white-space: nowrap;
+}
+
+tbody tr:hover {
+  background-color: #f8f8f8;
+  transition: background 0.2s ease-in-out;
+}
+
+/* Tombol ajukan/tutup */
+table button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, #55e6a5, #66d2ff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+table button:hover {
+  background: linear-gradient(135deg, #4fd694, #58c3f5);
+}
+
+/* Logout link */
+a.logout {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #55e6a5, #66d2ff);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+a.logout:hover {
+  background: linear-gradient(135deg, #4fd694, #58c3f5);
+}

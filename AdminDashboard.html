@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard Admin</title>
+  <link rel="stylesheet" href="AdminDashboard.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <header>
+    <h1>Dashboard Admin</h1>
+  </header>
+
+  <main>
+    <h2>Daftar Pengajuan Event</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Judul</th>
+          <th>Jenis</th>
+          <th>Total</th>
+          <th>Proposal</th>
+          <th>Tanggal</th>
+          <th>Status</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody id="eventList"></tbody>
+    </table>
+
+    <div class="button-group">
+      <a href="manage_user.html" class="btn">Kelola Data User</a>
+      <a href="#" class="btn logout" onclick="logout(event)">Logout</a>
+    </div>
+  </main>
+
+  <script>
+    const user = JSON.parse(localStorage.getItem('loggedUser'));
+    if (!user || user.role !== 'admin') {
+      Swal.fire('Akses ditolak', 'Silakan login sebagai admin.', 'error');
+      window.location.href = 'index.html';
+    }
+
+    function loadEvents() {
+      const events = JSON.parse(localStorage.getItem('events') || '[]');
+      const tbody = document.getElementById('eventList');
+      tbody.innerHTML = '';
+
+      events.forEach((event) => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${event.judul_event}</td>
+          <td>${event.jenis_kegiatan}</td>
+          <td>${event.total_pembiayaan}</td>
+          <td><a href="${event.proposal}" target="_blank">Lihat</a></td>
+          <td>${event.tanggal_pengajuan}</td>
+          <td><span class="badge ${event.status}">${event.status}</span></td>
+          <td>
+            ${event.status === 'diajukan' ? `
+              <button class="btn-approve" onclick="approveEvent(${event.id})">Setujui</button>
+              <button class="btn-reject" onclick="rejectEvent(${event.id})">Tolak</button>
+            ` : ''}
+            <button class="btn-delete" onclick="deleteEvent(${event.id})">Hapus</button>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function approveEvent(id) {
+      updateStatus(id, 'disetujui', 'Event disetujui');
+    }
+
+    function rejectEvent(id) {
+      updateStatus(id, 'ditolak', 'Event ditolak');
+    }
+
+    function updateStatus(id, newStatus, message) {
+      const events = JSON.parse(localStorage.getItem('events') || '[]');
+      const index = events.findIndex(e => e.id === id);
+      if (index !== -1) {
+        events[index].status = newStatus;
+        localStorage.setItem('events', JSON.stringify(events));
+        Swal.fire('Berhasil', message, 'success');
+        loadEvents();
+      }
+    }
+
+    function deleteEvent(id) {
+      Swal.fire({
+        title: 'Hapus Event?',
+        text: "Data tidak dapat dikembalikan!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#e74c3c',
+        cancelButtonColor: '#aaa',
+        confirmButtonText: 'Ya, hapus',
+        cancelButtonText: 'Batal'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          let events = JSON.parse(localStorage.getItem('events') || '[]');
+          events = events.filter(e => e.id !== id);
+          localStorage.setItem('events', JSON.stringify(events));
+          loadEvents();
+          Swal.fire('Terhapus!', 'Event telah dihapus.', 'success');
+        }
+      });
+    }
+
+    function logout(e) {
+      if (e) e.preventDefault();
+      Swal.fire({
+        title: 'Keluar?',
+        text: "Yakin ingin logout?",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya, logout'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          localStorage.removeItem('loggedUser');
+          Swal.fire('Logout berhasil', '', 'success');
+          setTimeout(() => {
+            window.location.href = 'index.html';
+          }, 1000);
+        }
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', loadEvents);
+  </script>
+</body>
+</html>

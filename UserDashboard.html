@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard User</title>
+  <link rel="stylesheet" href="UserDashboard.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <header>
+    <h1>Dashboard User</h1>
+  </header>
+
+  
+  <main>
+    <!-- FORM PENGAJUAN -->
+    <h2>Form Pengajuan Event</h2>
+    <form id="eventForm">
+      <input type="text" name="judul_event" placeholder="Judul Event" required />
+      <input type="text" name="jenis_kegiatan" placeholder="Jenis Kegiatan" required />
+      <input type="text" name="total_pembiayaan" placeholder="Total Pembiayaan" required />
+      <input type="text" name="proposal" placeholder="Link Proposal" />
+      <textarea name="deskripsi" placeholder="Deskripsi Kegiatan" required></textarea>
+      <input type="date" name="tanggal_pengajuan" required />
+      <button type="submit">Ajukan</button>
+    </form>
+
+    <!-- DAFTAR EVENT USER -->
+    <h2>Daftar Pengajuan Saya</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Judul</th>
+          <th>Status</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody id="userEventList"></tbody>
+    </table>
+
+    <!-- LOGOUT -->
+    <a href="#" class="logout" onclick="logout(event)">Logout</a>
+  </main>
+
+  <script>
+    // Validasi user login
+    const user = JSON.parse(localStorage.getItem('loggedUser'));
+    if (!user || user.role !== 'user') {
+      Swal.fire("Akses ditolak", "Silakan login sebagai user.", "error");
+      window.location.href = "index.html";
+    }
+
+    const form = document.getElementById('eventForm');
+    const table = document.getElementById('userEventList');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const data = Object.fromEntries(formData.entries());
+
+      data.status = "menunggu";
+      data.id = Date.now();
+      data.created_by = user.username;
+
+      const events = JSON.parse(localStorage.getItem('events') || '[]');
+      events.push(data);
+      localStorage.setItem('events', JSON.stringify(events));
+
+      Swal.fire('Berhasil!', 'Pengajuan berhasil dikirim.', 'success');
+      form.reset();
+      renderMyEvents();
+    });
+
+    function renderMyEvents() {
+      const events = JSON.parse(localStorage.getItem('events') || '[]');
+      const myEvents = events.filter(e => e.created_by === user.username);
+      table.innerHTML = '';
+
+      myEvents.forEach(event => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${event.judul_event}</td>
+          <td>${event.status}</td>
+          <td>
+            ${event.status === 'menunggu' ? `<button onclick="requestEvent(${event.id})">Ajukan</button>` : ''}
+            ${event.status !== 'ditutup' ? `<button onclick="closeEvent(${event.id})">Tutup</button>` : ''}
+          </td>
+        `;
+        table.appendChild(row);
+      });
+    }
+
+    function requestEvent(id) {
+      const events = JSON.parse(localStorage.getItem('events') || '[]');
+      const index = events.findIndex(e => e.id === id && e.created_by === user.username);
+      if (index !== -1 && events[index].status === 'menunggu') {
+        events[index].status = 'diajukan';
+        localStorage.setItem('events', JSON.stringify(events));
+        Swal.fire('Diajukan!', 'Event berhasil diajukan.', 'success');
+        renderMyEvents();
+      }
+    }
+
+    function closeEvent(id) {
+      const events = JSON.parse(localStorage.getItem('events') || '[]');
+      const index = events.findIndex(e => e.id === id && e.created_by === user.username);
+      if (index !== -1 && events[index].status !== 'ditutup') {
+        events[index].status = 'ditutup';
+        localStorage.setItem('events', JSON.stringify(events));
+        Swal.fire('Ditutup!', 'Event telah ditutup.', 'info');
+        renderMyEvents();
+      }
+    }
+
+    function logout(e) {
+      if (e) e.preventDefault();
+      Swal.fire({
+        title: 'Konfirmasi Logout',
+        text: "Apakah Anda yakin ingin keluar?",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya, logout',
+        cancelButtonText: 'Batal'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          localStorage.removeItem('loggedUser');
+          Swal.fire({
+            title: 'Berhasil Logout!',
+            text: 'Anda akan diarahkan ke halaman login.',
+            icon: 'success',
+            timer: 1500,
+            showConfirmButton: false
+          });
+          setTimeout(() => {
+            window.location.href = 'index.html';
+          }, 1600);
+        }
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', renderMyEvents);
+  </script>
+</body>
+</html>
