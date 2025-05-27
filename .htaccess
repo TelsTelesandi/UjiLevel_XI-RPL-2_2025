@@ -1,0 +1,34 @@
+# Prevent access to sensitive files
+<Files "*.php">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<Files "config/database.php">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Prevent directory browsing
+Options -Indexes
+
+# Security headers
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options nosniff
+    Header always set X-Frame-Options DENY
+    Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# File upload restrictions - Allow PHP files for the application to work
+# <FilesMatch "\.(php|php3|php4|php5|phtml|pl|py|jsp|asp|sh|cgi)$">
+#     Order Deny,Allow
+#     Deny from all
+# </FilesMatch>
+
+# Allow only specific file types in uploads
+<Directory "uploads">
+    <FilesMatch "\.(pdf|doc|docx|jpg|jpeg|png|gif)$">
+        Order Allow,Deny
+        Allow from all
+    </FilesMatch>
+</Directory>
