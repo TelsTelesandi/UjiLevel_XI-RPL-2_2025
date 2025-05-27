@@ -1,0 +1,24 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Base directory
+RewriteBase /aplikasi_ekskul/
+
+# Allow direct access to actual files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Ensure PHP files can be accessed
+<FilesMatch "\.(php)$">
+    Require all granted
+</FilesMatch>
+
+# PHP error reporting
+php_flag display_errors on
+php_value error_reporting E_ALL
+
+# Default index file
+DirectoryIndex index.php
+
+# Prevent directory listing
+Options -Indexes 
