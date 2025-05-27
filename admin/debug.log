@@ -1,0 +1,5992 @@
+2025-05-26 07:23:11 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:23:11 - Number of rows returned: 6
+2025-05-26 07:23:11 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:23:11 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:23:11 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:23:11 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:23:11 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:23:11 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:23:12 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:23:12 - Number of rows returned: 6
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:23:12 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:23:12 - Number of rows returned: 6
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:23:12 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:23:12 - Number of rows returned: 6
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:23:12 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:23:12 - Number of rows returned: 6
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:23:12 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:23:13 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:23:13 - Number of rows returned: 6
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:23:13 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:23:13 - Number of rows returned: 6
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:23:13 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:23:13 - Number of rows returned: 6
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:23:13 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:23:13 - Number of rows returned: 6
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:23:13 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:23:27 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:23:27 - Number of rows returned: 6
+2025-05-26 07:23:27 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:23:27 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:23:27 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:23:27 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:23:27 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:23:27 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:24:33 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:24:33 - Number of rows returned: 6
+2025-05-26 07:24:33 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:24:33 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:24:33 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:24:33 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:24:33 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:24:34 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:33:20 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:33:20 - Number of rows returned: 6
+2025-05-26 07:33:20 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:33:20 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:33:20 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:33:20 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:33:20 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:33:20 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:36:51 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:36:51 - Number of rows returned: 6
+2025-05-26 07:36:51 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:36:51 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:36:51 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:36:51 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:36:51 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:36:51 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:36:53 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:36:53 - Number of rows returned: 6
+2025-05-26 07:36:53 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:36:53 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:36:53 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:36:53 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:36:53 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:36:53 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:37:03 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:37:03 - Number of rows returned: 6
+2025-05-26 07:37:03 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:37:03 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:37:03 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:37:03 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:37:03 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:37:03 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:37:20 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:37:20 - Number of rows returned: 6
+2025-05-26 07:37:20 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:37:20 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:37:20 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:37:20 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:37:20 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:37:20 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:39:26 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:39:26 - Number of rows returned: 6
+2025-05-26 07:39:26 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:39:26 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:39:26 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:39:26 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:39:26 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:39:26 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:39:28 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:39:28 - Number of rows returned: 6
+2025-05-26 07:39:28 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:39:28 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:39:28 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:39:28 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:39:28 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:39:28 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:39:28 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:39:28 - Number of rows returned: 6
+2025-05-26 07:39:28 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:39:28 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:39:28 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:39:28 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:39:28 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:39:28 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:39:35 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:39:35 - Number of rows returned: 6
+2025-05-26 07:39:35 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:39:35 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:39:35 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:39:35 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:39:35 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:39:35 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:41:38 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:41:38 - Number of rows returned: 6
+2025-05-26 07:41:38 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:41:38 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:41:38 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:41:38 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:41:38 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:41:38 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:41:39 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:41:39 - Number of rows returned: 6
+2025-05-26 07:41:39 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:41:39 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:41:39 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:41:39 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:41:39 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:41:39 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:41:45 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:41:45 - Number of rows returned: 6
+2025-05-26 07:41:45 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:41:45 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:41:45 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:41:45 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:41:45 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:41:45 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:43:43 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:43:43 - Number of rows returned: 6
+2025-05-26 07:43:43 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:43:43 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:43:43 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:43:43 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:43:43 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:43:43 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:43:45 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:43:45 - Number of rows returned: 6
+2025-05-26 07:43:45 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:43:45 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:43:45 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:43:45 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:43:45 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:43:45 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:43:54 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:43:54 - Number of rows returned: 6
+2025-05-26 07:43:54 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:43:54 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:43:54 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:43:54 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:43:54 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:43:54 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:44:04 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:44:04 - Number of rows returned: 6
+2025-05-26 07:44:04 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:44:04 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:44:04 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:44:04 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:44:04 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:44:04 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:55:39 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:55:39 - Number of rows returned: 6
+2025-05-26 07:55:39 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:55:39 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:55:39 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:55:39 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:55:39 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:55:39 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:56:04 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:56:04 - Number of rows returned: 6
+2025-05-26 07:56:04 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:56:04 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:56:04 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:56:04 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:56:04 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:56:04 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:57:03 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:57:03 - Number of rows returned: 6
+2025-05-26 07:57:03 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:57:03 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:57:03 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:57:03 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:57:03 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:57:03 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:57:56 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:57:56 - Number of rows returned: 6
+2025-05-26 07:57:56 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:57:56 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:57:56 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:57:56 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:57:56 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:57:56 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:58:22 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:58:22 - Number of rows returned: 6
+2025-05-26 07:58:22 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:58:22 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-10
+    [catatan] => yo mangat
+)
+
+2025-05-26 07:58:22 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:58:22 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:58:22 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:58:22 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:58:58 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:58:58 - Number of rows returned: 6
+2025-05-26 07:58:58 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:58:58 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 07:58:58 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:58:58 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:58:58 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:58:58 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:59:18 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:59:18 - Number of rows returned: 6
+2025-05-26 07:59:18 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:59:18 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 07:59:18 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:59:18 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:59:18 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:59:18 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:59:20 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:59:20 - Number of rows returned: 6
+2025-05-26 07:59:20 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:59:20 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 07:59:20 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:59:20 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:59:20 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:59:20 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 07:59:30 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 07:59:30 - Number of rows returned: 6
+2025-05-26 07:59:30 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 07:59:30 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 07:59:30 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 07:59:30 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 07:59:30 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 07:59:30 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:09:45 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:09:45 - Number of rows returned: 6
+2025-05-26 08:09:45 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:09:45 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:09:45 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:09:45 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:09:45 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:09:45 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:10:02 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:10:02 - Number of rows returned: 6
+2025-05-26 08:10:02 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:10:02 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:10:02 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:10:02 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:10:02 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:10:02 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:17:20 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:17:20 - Number of rows returned: 7
+2025-05-26 08:17:20 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:17:20 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:17:20 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:17:20 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:17:20 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:17:20 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:17:20 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:17:39 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:17:39 - Number of rows returned: 7
+2025-05-26 08:17:39 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:17:39 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:17:39 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:17:39 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:17:39 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:17:39 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:17:39 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:17:59 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:17:59 - Number of rows returned: 7
+2025-05-26 08:17:59 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:17:59 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:17:59 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:17:59 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:17:59 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:17:59 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:17:59 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:23:36 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:23:36 - Number of rows returned: 7
+2025-05-26 08:23:36 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:23:36 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:23:36 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:23:36 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:23:36 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:23:36 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 2025-05-26
+    [catatan] => di setujui
+)
+
+2025-05-26 08:23:36 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:23:53 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:23:53 - Number of rows returned: 7
+2025-05-26 08:23:53 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:23:53 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:23:53 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:23:53 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:23:53 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:23:53 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 2025-05-26
+    [catatan] => di setujui
+)
+
+2025-05-26 08:23:53 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:23:54 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:23:54 - Number of rows returned: 7
+2025-05-26 08:23:54 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:23:54 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:23:54 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:23:54 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:23:54 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:23:54 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 2025-05-26
+    [catatan] => di setujui
+)
+
+2025-05-26 08:23:54 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:24:05 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:24:05 - Number of rows returned: 7
+2025-05-26 08:24:05 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:24:05 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:24:05 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:24:05 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:24:05 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:24:05 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 2025-05-26
+    [catatan] => di setujui
+)
+
+2025-05-26 08:24:05 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:24:56 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:24:56 - Number of rows returned: 7
+2025-05-26 08:24:56 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:24:56 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:24:56 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:24:56 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:24:56 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:24:56 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 2025-05-26
+    [catatan] => di setujui
+)
+
+2025-05-26 08:24:56 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:25:08 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:25:08 - Number of rows returned: 7
+2025-05-26 08:25:08 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:25:08 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:25:08 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:25:08 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:25:08 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:25:08 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 2025-05-26
+    [catatan] => di setujui
+)
+
+2025-05-26 08:25:08 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:27:39 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:27:39 - Number of rows returned: 7
+2025-05-26 08:27:39 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:27:39 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:27:39 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:27:39 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:27:39 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:27:39 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 2025-05-26
+    [catatan] => di setujui
+)
+
+2025-05-26 08:27:39 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:27:40 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:27:40 - Number of rows returned: 7
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 2025-05-26
+    [catatan] => di setujui
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:27:40 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:27:40 - Number of rows returned: 7
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:27:40 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:27:40 - Number of rows returned: 7
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 2025-05-26
+    [catatan] => di setujui
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:27:40 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:27:40 - Number of rows returned: 7
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 2025-05-26
+    [catatan] => di setujui
+)
+
+2025-05-26 08:27:40 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:27:45 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:27:45 - Number of rows returned: 7
+2025-05-26 08:27:45 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:27:45 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:27:45 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:27:45 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:27:45 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:27:45 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 2025-05-26
+    [catatan] => di setujui
+)
+
+2025-05-26 08:27:45 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+
+2025-05-26 08:27:58 - Query: SELECT 
+                                        ep.*,
+                                        u.username,
+                                        ve.tanggal_verifikasi,
+                                        ve.catatan
+                                    FROM 
+                                        event_pengajuan ep
+                                        LEFT JOIN users u ON ep.user_id = u.user_id
+                                        LEFT JOIN verifikasi_event ve ON ep.id = ve.event_id
+                                    ORDER BY 
+                                        ep.tanggal_pengajuan DESC
+2025-05-26 08:27:58 - Number of rows returned: 7
+2025-05-26 08:27:58 - Row data: Array
+(
+    [id] => 5
+    [user_id] => 4
+    [judul_kegiatan] => Perlombaan Basket
+    [event_ekskul] => Basket
+    [tanggal_pengajuan] => 2025-10-12
+    [total_biaya] => 2000000.00
+    [proposal] => 6833cad4a05ab_CV Nabil Efriansyah.pdf
+    [status] => Pending
+    [created_at] => 2025-05-26 08:58:44
+    [username] => dims_skuy
+    [tanggal_verifikasi] => 
+    [catatan] => 
+)
+
+2025-05-26 08:27:58 - Row data: Array
+(
+    [id] => 7
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Paskib
+    [event_ekskul] => Paskibra
+    [tanggal_pengajuan] => 2025-09-28
+    [total_biaya] => 9000000.00
+    [proposal] => 6833f287b7e8f_Modul SIstem Basis Data Lanjut 2019_2020_ISBN.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 11:48:07
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oke bagus
+)
+
+2025-05-26 08:27:58 - Row data: Array
+(
+    [id] => 8
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan voli
+    [event_ekskul] => Voli
+    [tanggal_pengajuan] => 2025-08-30
+    [total_biaya] => 5000000.00
+    [proposal] => 6834060173f11_CV Nabil Efriansyah.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 13:11:13
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-23
+    [catatan] => ppppp
+)
+
+2025-05-26 08:27:58 - Row data: Array
+(
+    [id] => 6
+    [user_id] => 2
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-07-29
+    [total_biaya] => 9000000.00
+    [proposal] => 6833cc160b1d7_MODUL LARAVEL NEW.pdf
+    [status] => Ditolak
+    [created_at] => 2025-05-26 09:04:06
+    [username] => Nabixx_laa
+    [tanggal_verifikasi] => 2025-05-17
+    [catatan] => ayo ayo
+)
+
+2025-05-26 08:27:58 - Row data: Array
+(
+    [id] => 4
+    [user_id] => 5
+    [judul_kegiatan] => Perlombaan Futsal
+    [event_ekskul] => Futsal
+    [tanggal_pengajuan] => 2025-06-27
+    [total_biaya] => 30000000.00
+    [proposal] => 683348c720200_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:43:51
+    [username] => Richard_cihuy
+    [tanggal_verifikasi] => 2025-05-29
+    [catatan] => jangan curang
+)
+
+2025-05-26 08:27:58 - Row data: Array
+(
+    [id] => 9
+    [user_id] => 6
+    [judul_kegiatan] => Perlombaan Renang
+    [event_ekskul] => Renang
+    [tanggal_pengajuan] => 2025-05-26
+    [total_biaya] => 9000000.00
+    [proposal] => 683423806e8ba_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-26 15:17:04
+    [username] => taqy39
+    [tanggal_verifikasi] => 2025-05-26
+    [catatan] => di setujui
+)
+
+2025-05-26 08:27:58 - Row data: Array
+(
+    [id] => 3
+    [user_id] => 3
+    [judul_kegiatan] => perlombaan nari
+    [event_ekskul] => Tari
+    [tanggal_pengajuan] => 2025-05-25
+    [total_biaya] => 200000.00
+    [proposal] => 68334309ecd7a_CV Nabil Efriansyah.pdf
+    [status] => Disetujui
+    [created_at] => 2025-05-25 23:19:21
+    [username] => shafa_nay
+    [tanggal_verifikasi] => 2025-05-22
+    [catatan] => oi oi oi
+)
+

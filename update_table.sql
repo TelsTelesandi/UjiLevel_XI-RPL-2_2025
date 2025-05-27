@@ -1,0 +1,1 @@
+ALTER TABLE event ADD COLUMN status VARCHAR(20) DEFAULT 'Pending'; 
