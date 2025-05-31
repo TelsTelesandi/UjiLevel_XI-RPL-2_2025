@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /ujilevel/
+
+# Jika bukan file atau direktori yang ada
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Arahkan ke public/index.php
+RewriteRule ^(.*)$ public/index.php?url=$1 [QSA,L]
+
+# Keamanan: Mencegah akses langsung ke file PHP di luar public
+RewriteRule ^(config|controllers|views|models)/.*\.php$ - [F,L] 
